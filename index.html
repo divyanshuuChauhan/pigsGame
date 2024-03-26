@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Pig Game</title>
+    
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="main" class="unselectable">
+        <h4 class="diceValue">0</h4>
+        <div class="newgame rectangle" ><h4>new game</h4></div>
+        <div class="rolldice square"><h4>rolldice</h4></div>
+        <div class="hold rectangle"><h4>hold</h4></div>
+        <div id="topcontainer">
+                <div class="leftside active--player">
+                    <h1 id="player0">Player 1</h1>
+                    <h5 class="score" id="score0">00</h5>
+                    <div class="currentscore">
+                        <h3>Current</h3>
+                        <h2 id="current0">00</h2>
+                    </div>
+                </div>
+                
+                <div class="rightside ">
+                    <h1 id="player1">Player 2</h1>
+                    <h5 class="score" id="score1">00</h5>
+                    <div class="currentscore">
+                        <h3>Current</h3>
+                        <h2 id="current1">00</h2>
+                    </div>
+                </div>
+        </div>
+        
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
